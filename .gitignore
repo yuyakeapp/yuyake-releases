@@ -1,0 +1,4 @@
+# Installers live in GitHub Releases, never in git
+*.dmg
+*.zip
+.DS_Store
