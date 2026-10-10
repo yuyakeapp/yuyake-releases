@@ -1,0 +1,37 @@
+<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Yuyake</title>
+        <item>
+            <title>0.0.1</title>
+            <pubDate>Sat, 10 Oct 2026 01:33:03 -0700</pubDate>
+            <link>https://pennowick.com/yuyake/</link>
+            <sparkle:fullReleaseNotesLink>https://github.com/yuyakeapp/yuyake-releases/blob/main/CHANGELOG.md</sparkle:fullReleaseNotesLink>
+            <sparkle:version>3</sparkle:version>
+            <sparkle:shortVersionString>0.0.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Yuyake 0.0.1
+
+### Added
+
+- Live video wallpaper on your desktop and, optionally, your lock screen
+- A built-in Discover library, plus your own clips and photo slideshows
+- Schedules, Auto, rotation and collections, with no limits
+- Quitting Yuyake leaves your macOS wallpaper as it was, and Settings has a Restore macOS wallpaper button
+- Help menu: Send Feedback and Copy Diagnostics, sent only if you choose
+- Privacy text that lists every connection Yuyake makes
+
+### Learn more
+
+https://pennowick.com/yuyake/
+
+Full changelog: https://github.com/yuyakeapp/yuyake-releases/blob/main/CHANGELOG.md
+]]></description>
+            <enclosure url="https://github.com/yuyakeapp/yuyake-releases/releases/download/v0.0.1/Yuyake.dmg" length="5822075" type="application/octet-stream" sparkle:edSignature="XHJLlelYxVnAQa256n9E8eydg4909J8hNBi1Eg+11wklkMtswgENtFuLj7q0ZuzpTle7k6cn8tkymdsO+ApeDw=="></enclosure>
+        </item>
+    </channel>
+</rss><!-- sparkle-signatures:
+edSignature: n8fcKk41F7qbTb/8Z/iwv9rVW7eEvpG8w9Lx/75CTZILADE2jR/y7Sk24ZGxVL8omtxynybTLUKC31unLPbRBQ==
+length: 1914
+-->
