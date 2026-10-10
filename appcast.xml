@@ -1,0 +1,39 @@
+<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Yuyake</title>
+        <item>
+            <title>0.0.2</title>
+            <pubDate>Sat, 10 Oct 2026 01:02:57 -0700</pubDate>
+            <link>https://pennowick.com/yuyake/</link>
+            <sparkle:fullReleaseNotesLink>https://github.com/yuyakeapp/yuyake-releases/blob/main/CHANGELOG.md</sparkle:fullReleaseNotesLink>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>0.0.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Yuyake 0.0.2
+
+### Added
+
+- Quitting or updating Yuyake leaves your macOS wallpaper as it was, and Settings, Storage has a "Restore macOS wallpaper" button
+- Help menu: Send Feedback and Copy Diagnostics, with nothing sent unless you choose to
+
+### Changed
+
+- Privacy text now lists every connection Yuyake makes
+- Weather comes only from Open-Meteo; Apple WeatherKit is gone
+- Rotation, schedules and collections have no limits, and the unused Pro and StoreKit code is removed
+
+### Learn more
+
+https://pennowick.com/yuyake/
+
+Full changelog: https://github.com/yuyakeapp/yuyake-releases/blob/main/CHANGELOG.md
+]]></description>
+            <enclosure url="https://github.com/yuyakeapp/yuyake-releases/releases/download/v0.0.2/Yuyake.dmg" length="5822075" type="application/octet-stream" sparkle:edSignature="q2RWfQJV1C+YkcHawTCW5SFTADHeAoiWOjbJhuDdC1XddRQTtDDaX1hY38wcm6ck0+ynqQ02jGEsHOhhOet/DQ=="></enclosure>
+        </item>
+    </channel>
+</rss><!-- sparkle-signatures:
+edSignature: EgVrD8eXSsofzkGBVpaywWfOUCLkTtGKFg9ZMwHY5fPnK+aJYdPFJyBeQLMM3A/VSO8TSXDYdXpy3VETOLErDg==
+length: 1925
+-->
