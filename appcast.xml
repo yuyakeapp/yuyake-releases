@@ -1,8 +1,39 @@
-<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+<?xml version="1.0" standalone="yes"?>
+<!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+-->
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>Yuyake</title>
+        <item>
+            <title>0.0.2</title>
+            <pubDate>Mon, 12 Oct 2026 11:57:12 -0700</pubDate>
+            <link>https://pennowick.com/yuyake/</link>
+            <sparkle:fullReleaseNotesLink>https://github.com/yuyakeapp/yuyake-releases/blob/main/CHANGELOG.md</sparkle:fullReleaseNotesLink>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>0.0.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Yuyake 0.0.2
+
+### Changed
+
+- The last setup screen now says Yuyake starts when you log in, and that Settings can turn that off
+
+### Fixed
+
+- Removing Yuyake's lock screen copies, and tidying the wallpaper catalog, now leave alone any custom wallpaper entry that is not Yuyake's
+- Weather and sunrise lookups send your location rounded to about a kilometre, as the privacy text says
+- Copy Diagnostics also hides media file names that were logged without quotes
+- Downloads refuse redirects to non-https or local-network addresses, and the Discover server can no longer point Yuyake at them
+
+### Learn more
+
+https://pennowick.com/yuyake/
+
+Full changelog: https://github.com/yuyakeapp/yuyake-releases/blob/main/CHANGELOG.md
+]]></description>
+            <enclosure url="https://github.com/yuyakeapp/yuyake-releases/releases/download/v0.0.2/Yuyake.dmg" length="5793093" type="application/octet-stream" sparkle:edSignature="6JrJd+yZUi7egLdCYYs7zvH9aLqDqOr1TSVty2riSshaSvd2cR5+Jbuobpcn2CsVp08W8i6L9h9X93LhqPIADQ=="/>
+        </item>
         <item>
             <title>0.0.1</title>
             <pubDate>Sat, 10 Oct 2026 01:33:03 -0700</pubDate>
@@ -28,10 +59,11 @@ https://pennowick.com/yuyake/
 
 Full changelog: https://github.com/yuyakeapp/yuyake-releases/blob/main/CHANGELOG.md
 ]]></description>
-            <enclosure url="https://github.com/yuyakeapp/yuyake-releases/releases/download/v0.0.1/Yuyake.dmg" length="5822075" type="application/octet-stream" sparkle:edSignature="XHJLlelYxVnAQa256n9E8eydg4909J8hNBi1Eg+11wklkMtswgENtFuLj7q0ZuzpTle7k6cn8tkymdsO+ApeDw=="></enclosure>
+            <enclosure url="https://github.com/yuyakeapp/yuyake-releases/releases/download/v0.0.1/Yuyake.dmg" length="5822075" type="application/octet-stream" sparkle:edSignature="XHJLlelYxVnAQa256n9E8eydg4909J8hNBi1Eg+11wklkMtswgENtFuLj7q0ZuzpTle7k6cn8tkymdsO+ApeDw=="/>
         </item>
     </channel>
-</rss><!-- sparkle-signatures:
-edSignature: n8fcKk41F7qbTb/8Z/iwv9rVW7eEvpG8w9Lx/75CTZILADE2jR/y7Sk24ZGxVL8omtxynybTLUKC31unLPbRBQ==
-length: 1914
+</rss>
+<!-- sparkle-signatures:
+edSignature: zFNr1ygHV2pT0PEV7WtGafFIkXgPqeW6kilE2mPBAQ1V6lqUyyltaa9CNcRPSOd+OP3tKcXPv2++ljKG+fHKAw==
+length: 3506
 -->
